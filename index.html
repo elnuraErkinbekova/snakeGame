@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="gameCanvas" width="600" height="400"></canvas>
+
+  <div class="leaderboard-section">
+    <h2>Overall Top Score: <span id="overallTop">0</span></h2>
+    <button id="viewLeaderboard">Show Leaderboard</button>
+  </div>
+
+  <div class="changeTheme">
+    <button id="theme-btn" onclick="changeTheme()"> Change Theme </button>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
