@@ -1,0 +1,101 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    background-image: url(https://i.ibb.co/w7JM7Rm/pink141.gif);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    margin-top: 50px;
+    border: 2px solid white;
+    background-color: #fa9bcb;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leaderboard-section {
+    margin-top: 20px;
+}
+
+.leaderboard-section button {
+    background-color: #ffb3d9;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: white;
+}
+
+.leaderboard-section button:hover {
+    background-color: #ff80bf;
+}
+
+.changeTheme {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.changeTheme button {
+    background-color: #ffb3d9;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: white;
+}
+
+/* Leaderboard table styling */
+#leaderboardTable {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 600px;
+    border: 2px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#leaderboardTable th,
+#leaderboardTable td {
+    padding: 12px 15px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+#leaderboardTable th {
+    background-color: #b3ca9b;
+    color: white;
+    font-weight: bold;
+}
+
+#leaderboardTable td {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+}
+
+
+/* Back button styling */
+button[onclick*="index.html"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #b3ca9b;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button[onclick*="index.html"]:hover {
+    transform: scale(1.05);
+}
